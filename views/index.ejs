@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>List of titles</title>
+</head>
+
+<body>
+    <h1> Following are the titles of given websites: </h1>
+    <ul>
+
+    <%  for (var i = 0; i < addresses.length; i++) {%>
+   	
+   	<li><%= addresses[i]%> -<%= allTitles[i] %></li>	
+	
+	<% } %>
+     </ul>   
+</body>
+
+</html>
